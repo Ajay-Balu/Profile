@@ -1,0 +1,26 @@
+img{
+    vertical-align: middle;
+    height: 200px;
+    border-radius: 50%;
+}
+h1{
+    color: #468B97;
+}
+h3{
+    color: #468B97;
+}
+body {
+    background-color: #E2F6CA;
+}
+hr {
+   
+    background-color: transparent;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%;
+}
+.list{
+    display: inline-block;
+}

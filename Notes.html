@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Notes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        img{
+            height: 40px;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Course Notes</h3>
+    <p>
+        <img src="Images/HTML.png" alt="HTML.png">HTML is for structure <img src="Images/CSS.png" alt="CSS.png"> CSS is for styling <img src="Images/JS.png" alt="JS.png"> JavaScript is for behavior
+    </p>
+    <hr size="3" noshade="">
+    <h3>HTML5</h3>
+    <table>
+        <tr>
+            <td>
+                <ul>
+                    <li>Heading Tag H1(large) to H6(Small)</li>
+                    <li>Paragraph tag P </li>
+                    <li>Strong and Bold</li>
+                    <li>Emphasize Text with I or EM</li>
+                    <li>Horizontal Rule hr size="" (doesn't have end tag)</li>
+                    <li>Break br (doesn't have end tag)</li>
+                    <li>Link tag A href="" target="_blank"></li>
+                    <li>Image Tag img src="" alt=""(doesn't have end tag)</li>
+                    <li>Unordered List UL</li>
+                    <li>List iteam LI</li>
+                    <li>Ordered list OL</li>
+                    <li>Form, Lable, Input and attributes ref. Contact-me page</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><Strong>Table & Nested Table</Strong></li>
+                    <li>
+                        <table cellspacing="10">
+                            <thead>
+                                <th>Table level</th>
+                                <th>Cell level</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table cellspacing="10">
+                                            <tr>
+                                                <td>Table creation</td>
+                                                <td>table tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table header</td>
+                                                <td>thead tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table Body</td>
+                                                <td>tbody tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table Footer</td>
+                                                <td>tfoot tag</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table cellspacing="10">
+                                            <tr>
+                                                <td>Header cell</td>
+                                                <td>th tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table row/cell</td>
+                                                <td>tr tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table data</td>
+                                                <td>td tag</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3>CSS</h3>
+    <p>*NOTE : Browser inserts some CSS styling by DEFAULT!!!</p>
+    <ul class="list">
+        <li><Strong>Types of CSS implementations</Strong></li>
+        <li>InLine   - Top priority</li>
+        <li>Internal - Medium Priority</li>
+        <li>External - Low Priority</li >
+    </ul>
+    <ul class="list">
+        <li><strong>Syntax</strong></li>
+        <li>TAG Selector - TagName { property : value;} [low priority]</li>
+        <li>Class Selector - .ClassName { property : value;} [Group of multiple elements]</li>
+        <li>ID Selector - #IdName { property : value;} [Unique ID, Single element/tag]</li>
+    </ul>
+    <p>Adding Favicon using - link rel="icon"</p>
+    <p>div element => container</p>
+    <p><strong>Styling in CSS using BOX model</strong></p>
+    <ol>
+        <li>Height/Width</li>
+        <li>Borders</li>
+        <li>padding</li>
+        <li>Margins</li>
+    </ol>
+    <p><strong>display : inline-block</strong></p>
+    <ul class="list">
+        <li>display : block</li>
+        <li>display : inline</li>
+        <li>display : inline-block</li>
+        <li>display : none</li>
+    </ul>
+    <ul class="list">
+        <li>Span element is also a div element but it takes only required space</li>
+        <li>img element</li>
+        <li>a anchor element</li>
+        <li>visibility : hidden</li>
+    </ul>
+    <p><strong>Positioning using position</strong></p>
+    <ul class="list">
+        <li>position : static</li>
+        <li>position : relative</li>
+        <li>position : absolute</li>
+        <li>position : fixed</li>
+    </ul>
+    <ul class="list">
+        <li>default position by html</li>
+        <li>Ghost - doesn't move its place just the soul</li>
+        <li>move its place relative to parent</li>
+        <li>Fixed in that position. e.g, Nav Bar</li>
+    </ul>
+    <p>Center elements, Font Styling</p>
+    <p><strong>Font Sizing</strong></p>
+    <ul class="list">
+        <li>pixel</li>
+        <li>percentage - better for screen rezing but also inherit from parent [100% = 16px]</li>
+        <li>em - better for screen rezing but also inherit from parent [1em = 16px = 100%]</li>
+        <li>rem - same as em but doesn't inherit from parent [best use in most cases]</li>
+    </ul>
+   <p><strong>Float and Clear</strong></p>
+   <ul>
+    <li>Float used to make texts wrap around an elemet</li>
+    <li>Don't use it for Positioning, use absolute and relative for better pratice</li>
+    <li>clear is somewhat anti-float, clears the wrapping is its around an element</li>
+   </ul>
+    <h4>References</h4>
+    <ol>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/reference">Keywords and pseudo classes</a></li>
+    </ol>
+</body>
+</html>
